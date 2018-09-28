@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>enjqDeck - Cryptocurrencies</title>
+	<link rel="stylesheet" href="./css/global.css" />
+	<script>window.$ = window.jQuery = require('./scripts/jquery.js');</script>
+	<script src="./scripts/config.js"></script>
+	<script src="./scripts/events.js"></script>
+	<script src="./scripts/feed-cryptos.js"></script>
+	<script src="./scripts/feed-pmetals.js"></script>
+</head>
+<body>
+
+	
+
+	<div id="nav-tabs">
+		<ul>
+			<li class="active-tab"><a href="#" data-tab="cryptos">Cryptocurrencies</a></li>
+			<li><a href="#" data-tab="p-metals">Precious Metals</a></li>
+		</ul>
+	</div>
+
+	<div id="action-center">
+		<div id="action-notices"></div>
+		<div id="action-controls"></div>
+	</div>
+
+	<div id="tabs">
+	
+		<div id="cryptos" class="active-tab">
+			<ul class="commlist">
+				<li data-sym="BTC">
+					<div class="brief">
+						BITCOIN
+						<span>Loading...</span>
+					</div>
+					<div class="meta">
+						[metadata]
+					</div>
+				</li>
+
+				<li data-sym="ETH">
+					<div class="brief">
+						ETHEREUM
+						<span>Loading...</span>
+					</div>
+					<div class="meta">
+						[metadata]
+					</div>
+				</li>
+
+				<li data-sym="LTC">
+					<div class="brief">
+						LITECOIN
+						<span>Loading...</span>
+					</div>
+					<div class="meta">
+						[metadata]
+					</div>
+				</li>
+			</ul>
+		</div>
+
+		<div id="p-metals">
+			<ul class="commlist">
+
+				<li data-sym="GOLD" data-market="LBMA">
+					<div class="brief">
+						GOLD
+						<span>Loading...</span>
+					</div>
+					<div class="meta">
+						[metadata]
+					</div>
+				</li>
+
+				<li data-sym="SILVER" data-market="LBMA">
+					<div class="brief">
+						SILVER
+						<span>Loading...</span>
+					</div>
+					<div class="meta">
+						[metadata]
+					</div>
+				</li>
+
+				<li data-sym="PLAT" data-market="LPPM">
+					<div class="brief">
+						PLATINUM
+						<span>Loading...</span>
+					</div>
+					<div class="meta">
+						[metadata]
+					</div>
+				</li>
+
+				<li data-sym="PALL" data-market="LPPM">
+					<div class="brief">
+						PALLADIUM
+						<span>Loading...</span>
+					</div>
+					<div class="meta">
+						[metadata]
+					</div>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+
+
+	<div id="status-bar">
+		<div class="grid">
+			
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "ejdeck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "core.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Avant 5 Multimedia",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^2.0.10"
+  },
+  "homepage": "https://github.com/avant5/ejdeck"
+}
